@@ -1,6 +1,7 @@
 # Currency Converter App
 
 This is a Currency Converter application that utilizes an external API for currency conversion.
+Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
 ## Description
 
