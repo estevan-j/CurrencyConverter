@@ -1,6 +1,7 @@
 # Convertor de Monedas
 
-![Portada del proyecto](ruta/a/tu/imagen.jpg)
+![Badge-Conversor](https://github.com/user-attachments/assets/fa5d05e9-7f33-4fa9-85b2-14d3a56511d1)
+
 
 ## Insignias
 
@@ -44,9 +45,9 @@ Puedes clonar el repositorio y ejecutar la aplicación localmente siguiendo esto
    git clone https://github.com/estevan-j/CurrencyConverter/blob/main
    ```
 ## Tecnologías utilizadas
-- **Backend:** Java 22.0.1
+- **Backend:** [![Java](https://img.shields.io/badge/Java-22.0.1-orange)](https://www.java.com)
 - **API de tasas de cambio:** [ExchangeRate-API](https://www.exchangerate-api.com/docs/java-currency-api)
 
 ## Personas Desarrolladoras del Proyecto
 
-- **Tu Nombre** - [Tu GitHub](https://github.com/estevan-j)
+- **Github** - [estevan-j](https://github.com/estevan-j)
