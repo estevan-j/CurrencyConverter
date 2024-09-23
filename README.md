@@ -13,14 +13,12 @@
 - [Características de la aplicación y demostración](#características-de-la-aplicación-y-demostración)
 - [Acceso al proyecto](#acceso-al-proyecto)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
-- [Personas Contribuyentes](#personas-contribuyentes)
 - [Personas Desarrolladores del Proyecto](#personas-desarrolladores)
-- [Licencia](#licencia)
-- [Conclusión](#conclusión)
+
 
 ## Descripción del proyecto
 
-El Convertor de Monedas es una aplicación que permite a los usuarios convertir entre diferentes divisas de forma rápida y sencilla, utilizando tasas de cambio actualizadas de la API: [ExchangeRate-API](https://www.exchangerate-api.com/docs/java-currency-api)
+El Convertor de Monedas es una aplicación que permite a los usuarios convertir entre diferentes divisas de forma rápida y sencilla, utilizando tasas de cambio actualizadas de la API.
 
 ## Estado del proyecto
 
@@ -44,3 +42,11 @@ Puedes clonar el repositorio y ejecutar la aplicación localmente siguiendo esto
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/estevan-j/CurrencyConverter/blob/main
+   ```
+## Tecnologías utilizadas
+- **Backend:** Java 22.0.1
+- **API de tasas de cambio:** [ExchangeRate-API](https://www.exchangerate-api.com/docs/java-currency-api)
+
+## Personas Desarrolladoras del Proyecto
+
+- **Tu Nombre** - [Tu GitHub](https://github.com/estevan-j)
