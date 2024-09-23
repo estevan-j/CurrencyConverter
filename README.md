@@ -5,6 +5,7 @@ This is a Currency Converter application that utilizes an external API for curre
 ## Description
 
 The Currency Converter App allows users to convert currencies using real-time exchange rates. The application fetches data from an external API to perform the conversion.
+___
 ![image](https://github.com/user-attachments/assets/5bffccb8-0d26-4359-9181-e7002180dd3e)
 
 ## Installation
