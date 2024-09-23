@@ -1,25 +1,46 @@
-# Currency Converter App
+# Convertor de Monedas
 
-This is a Currency Converter application that utilizes an external API for currency conversion.
+![Portada del proyecto](ruta/a/tu/imagen.jpg)
 
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+## Insignias
 
-## Description
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/tu_usuario/convertor-de-monedas)
 
-The Currency Converter App allows users to convert currencies using real-time exchange rates. The application fetches data from an external API to perform the conversion.
-___
-![image](https://github.com/user-attachments/assets/5bffccb8-0d26-4359-9181-e7002180dd3e)
+## Índice
 
-## Installation
+- [Descripción del proyecto](#descripción-del-proyecto)
+- [Estado del proyecto](#estado-del-proyecto)
+- [Características de la aplicación y demostración](#características-de-la-aplicación-y-demostración)
+- [Acceso al proyecto](#acceso-al-proyecto)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Personas Contribuyentes](#personas-contribuyentes)
+- [Personas Desarrolladores del Proyecto](#personas-desarrolladores)
+- [Licencia](#licencia)
+- [Conclusión](#conclusión)
 
-1. Clone the repository to your local machine.
-2. Ensure you have Java installed.
-3. Compile the code using a Java compiler.
-4. Run the application by executing the main class.
+## Descripción del proyecto
 
-## Usage
+El Convertor de Monedas es una aplicación que permite a los usuarios convertir entre diferentes divisas de forma rápida y sencilla, utilizando tasas de cambio actualizadas.
 
-To use the Currency Converter:
-1. Run the application.
-2. Enter the amount and currencies you want to convert.
-3. The application will display the converted amount.
+## Estado del proyecto
+
+Actualmente, el proyecto está en la fase de desarrollo activo, con nuevas funcionalidades en camino y mejoras continuas.
+
+## Características de la aplicación y demostración
+
+- **Conversión en tiempo real:** Obtén tasas de cambio actualizadas.
+- **Interfaz amigable:** Diseño intuitivo para facilitar el uso.
+- **Soporte para múltiples divisas:** Convierte entre las principales monedas del mundo.
+- **Historial de conversiones:** Guarda las conversiones recientes.
+
+### Demostración
+
+[Enlace a la demostración](https://tu_enlace_de_demostracion.com)
+
+## Acceso al proyecto
+
+Puedes clonar el repositorio y ejecutar la aplicación localmente siguiendo estos pasos:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/convertor-de-monedas.git
