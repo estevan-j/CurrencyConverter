@@ -1,5 +1,6 @@
 package Service;
 
+import Logger.ConvertionLogs;
 import Models.Currencies;
 import Models.CurrencyModel;
 
@@ -15,7 +16,7 @@ public class CurrencyConverter {
         this.currencies = Currencies.values();
     }
 
-    public void run() throws IOException, InterruptedException {
+    public void run(ConvertionLogs logsConversion) throws IOException, InterruptedException {
         Scanner scanner = new Scanner(System.in);
         boolean continuar = true;
 
@@ -29,12 +30,14 @@ public class CurrencyConverter {
             int destino = obtenerOpcion(scanner, "Elija la moneda a la que desea convertir: ");
             if (origen == destino) {
                 System.out.println("Seleccione diferentes formatos de conversión de monedas!!\n");
+                logsConversion.addLog("Intento de conversión: misma moneda origen = destino!!\n");
                 continue;
             }
             if (destino == -1) continue;
             CurrencyModel divisa = service.getCurrencyDivisas(currencies[origen].getCodigo());
             double resultado = divisa.convertion(currencies[destino].getCodigo(), amount) ;
             System.out.printf("\nEl valor de "+ amount  +" ["+currencies[origen].getCodigo()+"] = " + resultado + " [" + currencies[destino].getCodigo() + "]\n");
+            logsConversion.addLog("El valor de "+ amount  +" ["+currencies[origen].getCodigo()+"] = " + resultado + " [" + currencies[destino].getCodigo() + "]\n");
             System.out.println("*".repeat(45)+"\n");
             continuar = preguntarContinuar(scanner);
         }
